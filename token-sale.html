@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+	<title>Cryptcon</title>
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="image/x-icon" href="images/favicon.png" rel="icon">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-box">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+
+    <!-- Header Start -->
+    <header class="header">
+       <div class="container">
+            <div class="row flex-align">
+                <div class="col-lg-4 col-md-6 col-8">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="Cryptcon"></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-9 col-4 text-right">
+                    <div class="menu-toggle">
+                        <span></span>
+                    </div>
+                    <div class="main-menu">
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="mega-menu">
+                                    <span class="opener"></span>
+                                    <a href="javascript:void(0)" class="active">Pages<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="dropdown-content">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="blog-list.html">Our Blog</a></li>
+                                        <li><a href="token-sale.html" class="active">Token Sale</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="faq.html">FAQ’s</a></li>
+                                        <li><a href="404.html">Page 404</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="feature.html">Feature</a></li>
+                                <li><a href="roadmap.html">Roadmap</a></li>
+                                <li><a href="our-team.html">Team</a></li>
+                            </ul>
+                        </div>
+                        <div class="sign-in">
+                            <a href="sign-in.html" class="btn-small">Sign in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Start Of Main Div -->
+    <div class="main">
+
+        <!-- Start Of Subpage banner -->
+        <section class="subpage-banner relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="subpage-content">
+                            <h1 class="subpage-title delay-1 wow fadeInLeft">Cryptcon Tokens</h1>
+                            <p class="subpage-des delay-2 wow fadeInLeft">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="bg-pattern">
+                <img src="images/subpage-pattern-1.png" alt="subpage-pattern-1" class="pattern-1 top-0 wow">
+                <img src="images/subpage-pattern-2.png" alt="subpage-pattern-2" class="pattern-2 bottom-0 line-pattern wow">
+            </div>
+        </section>
+        <!-- End Of Subpage banner -->
+        
+
+        <!-- Start Of Token Sale -->
+        <section class="token-sale-main pb-200 relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading-part heading-center wow fadeInUp">
+                            <h2>Token Structure</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor et dolore magna aliqua Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row flex-align">
+                    <div class="col-md-6 col-lg-6 col-xl-3 order-lg_2 mb-sm-30">
+                        <div class="token-info wow fadeInLeft">
+                            <div class="token-info-box text-center">
+                                <h3 class="token-info-title">Token Name</h3>
+                                <span class="token-type">Cryptcon</span>
+                            </div>
+
+                            <div class="token-info-box text-center">
+                                <h3 class="token-info-title">Nominal Price</h3>
+                                <span class="token-type">1smt = 0.025USD</span>
+                            </div>
+
+                            <div class="token-info-box text-center">
+                                <h3 class="token-info-title">Total Token Sale</h3>
+                                <span class="token-type">7 BN smt</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-12 col-xl-6 order-lg_1">
+                        <div class="token-sale-counter wow fadeInUp">
+                            <div id="timer" class="coins-counter-loop text-center"></div>
+
+                            <div class="coin-progress-box">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="token-slide-info">
+                                            <span class="v-line">Softcap in 70 days</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="token-slide-info text-right">
+                                            <span>HardCAP</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="coins-progress">
+                                    <span data-progress="70"></span>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="token-slide-info">
+                                            <span>$2.70M</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="token-slide-info text-right">
+                                            <span>$7.40M</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="buy-token text-center">
+                                <a href="#" class="btn-medium">Buy Tokens Now</a>
+                            </div>
+
+                            <div class="token-currency">
+                                <ul class="currency-card text-center">
+                                    <li><a href="#"><img src="images/bitcoin.png" alt="bitcoin"></a></li>
+                                    <li><a href="#"><img src="images/visa.png" alt="visa"></a></li>
+                                    <li><a href="#"><img src="images/paypal.png" alt="paypal"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-3 order-lg_3">
+                        <div class="token-info wow fadeInRight">
+                            <div class="token-info-box text-center">
+                                <h3 class="token-info-title">Unsold Tokens</h3>
+                                <span class="token-type">Smart Contract Burn</span>
+                            </div>
+
+                            <div class="token-info-box text-center">
+                                <h3 class="token-info-title">Type of Token</h3>
+                                <span class="token-type">ERC 20</span>
+                            </div>
+
+                            <div class="token-info-box text-center">
+                                <h3 class="token-info-title">Accepted</h3>
+                                <span class="token-type">BTC, ETH, LTC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-pattern">
+                <img src="images/left-pattern-04.png" alt="right-pattern-02" class="pattern-1 top-0 wow">
+                <img src="images/right-pattern-04.png" alt="left-pattern-02" class="pattern-2 bottom-0 wow">
+            </div>
+        </section>
+        <!-- End Of Token Sale -->
+
+
+        <!-- Start Of Token Distribution -->
+        <section class="token-distribution pb-200 relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading-part pb-70 heading-center wow fadeInUp">
+                            <h3>Token Distribution</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-lg-12 col-xl-6">
+                        <div class="token-graph-box token-graph-1 wow fadeInLeft">
+                            <div class="token-graph">
+                                <img src="images/token-graph-1.png" alt="token-graph-1">
+                            </div>
+
+                            <div class="token-graph-detail">
+                                <h3 class="token-graph-title">Token Allocation</h3>
+                                <ul>
+                                    <li>
+                                        <span class="dark-grey color-box"></span>
+                                        <span class="token-name">Public Sale</span>
+                                    </li>
+                                    <li>
+                                        <span class="light-green color-box"></span>
+                                        <span class="token-name">Private Sale</span>
+                                    </li>
+                                    <li>
+                                        <span class="dark-green color-box"></span>
+                                        <span class="token-name">Board Advisors</span>
+                                    </li>
+                                    <li>
+                                        <span class="dull-blue color-box"></span>
+                                        <span class="token-name">Token Sale</span>
+                                    </li>
+                                    <li>
+                                        <span class="dark-purple color-box"></span>
+                                        <span class="token-name">Reserve Fund</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-12 col-xl-6">
+                        <div class="token-graph-box wow fadeInRight">
+                            <div class="token-graph">
+                                <img src="images/token-graph-2.png" alt="token-graph-2">
+                            </div>
+
+                            <div class="token-graph-detail">
+                                <h3 class="token-graph-title">Funds Allocation</h3>
+                                <ul>
+                                    <li>
+                                        <span class="dark-grey color-box"></span>
+                                        <span class="token-name">Contingency</span>
+                                    </li>
+                                    <li>
+                                        <span class="light-green color-box"></span>
+                                        <span class="token-name">Legal & Regulation</span>
+                                    </li>
+                                    <li>
+                                        <span class="dark-green color-box"></span>
+                                        <span class="token-name">Ecosystem</span>
+                                    </li>
+                                    <li>
+                                        <span class="dull-blue color-box"></span>
+                                        <span class="token-name">Team & Founders</span>
+                                    </li>
+                                    <li>
+                                        <span class="dark-purple color-box"></span>
+                                        <span class="token-name">Partners</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-pattern">
+                <img src="images/left-pattern-02.png" alt="left-pattern-02" class="pattern-1 top-0 wow">
+                <img src="images/right-pattern-02.png" alt="right-pattern-02" class="pattern-2 bottom-0 wow">
+            </div>
+        </section>
+        <!-- End Of Token Distribution -->
+
+
+        <!-- Start Of Token Sale Stages -->
+        <section class="token-sale-stages pb-160 relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading-part pb-70 heading-center wow fadeInUp">
+                            <h3>Token Sale Stages</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 d-flex">
+                        <div class="token-stages relative wow fadeInUp">
+                            <div class="stage-box">
+                                <span class="stage-count">Stage 1</span>
+                                <h3 class="token-per">30%</h3>
+                                <span class="dis">Discount</span>
+                                <span class="date">Sep 24 - Oct 28</span>
+                            </div>
+
+                            <div class="stage-box-hover">
+                                <a href="#" class="btn-medium">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 d-flex">
+                        <div class="token-stages relative wow fadeInUp delay-1">
+                            <div class="stage-box">
+                                <span class="stage-count">Stage 2</span>
+                                <h3 class="token-per">26%</h3>
+                                <span class="dis">Discount</span>
+                                <span class="date">Oct 28 - Nov 16</span>
+                            </div>
+
+                            <div class="stage-box-hover">
+                                <a href="#" class="btn-medium">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 d-flex">
+                        <div class="token-stages relative wow fadeInUp delay-2">
+                            <div class="stage-box">
+                                <span class="stage-count">Stage 3</span>
+                                <h3 class="token-per">14%</h3>
+                                <span class="dis">Discount</span>
+                                <span class="date">Nov 16 - Dec 02</span>
+                            </div>
+
+                            <div class="stage-box-hover">
+                                <a href="#" class="btn-medium">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 d-flex">
+                        <div class="token-stages relative wow fadeInUp delay-3">
+                            <div class="stage-box">
+                                <span class="stage-count">Stage 4</span>
+                                <h3 class="token-per">0%</h3>
+                                <span class="dis">Discount</span>
+                                <span class="date">Dec 02 - dec 30</span>
+                            </div>
+
+                            <div class="stage-box-hover">
+                                <a href="#" class="btn-medium">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-pattern">
+                <img src="images/left-pattern-01.png" alt="left-pattern-01" class="pattern-1 line-pattern bottom-0 wow">
+            </div>
+        </section>
+        <!-- End Of Token Sale Stages -->
+
+
+        <!-- Start Of Partners -->
+        <section class="trusted-brand relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading-part heading-center wow fadeInUp">
+                            <h3>Trusted By</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand-logo-part wow fadeInUp">
+                <div class="brand-slider">
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-1.png" alt="brand-logo-1">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-2.png" alt="brand-logo-2">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-3.png" alt="brand-logo-3">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-4.png" alt="brand-logo-4">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-5.png" alt="brand-logo-5">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-6.png" alt="brand-logo-6">
+                    </div>
+                </div>
+
+                <div class="brand-slider">
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-1.png" alt="brand-logo-1">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-2.png" alt="brand-logo-2">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-3.png" alt="brand-logo-3">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-4.png" alt="brand-logo-4">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-5.png" alt="brand-logo-5">
+                    </div>
+
+                    <div class="brand-logo">
+                        <img src="images/brand-logo-6.png" alt="brand-logo-6">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Of Partners -->
+
+
+        <!-- Start Of Newsletter -->
+        <section class="newsletter relative ptb-200">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="newsletter-box wow fadeInUp">
+                            <div class="newsletter-title">
+                                <h3>Stay Informed And Never Miss An Cryptcon Update!</h3>
+                            </div>
+
+                            <div class="newsletter-form">
+                                <form>
+                                    <div class="form-group w-100">
+                                        <input type="text" name="newsletter" placeholder="Enter Your Mail" class="form-control" required>
+                                    </div>
+                                    <div class="form-btn">
+                                        <button type="submit" class="btn-large">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-pattern">
+                <img src="images/left-pattern-04.png" alt="right-pattern-02" class="pattern-1 top-0 wow">
+                <img src="images/right-pattern-04.png" alt="left-pattern-02" class="pattern-2 bottom-0 wow">
+            </div>
+        </section>
+        <!-- End Of Newsletter -->
+
+
+        <!-- Start of Footer -->
+        <footer class="footer relative">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <div class="footer-logo wow fadeInUp">
+                                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                <ul class="social-icon"> 
+                                    <li><a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="twit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-8 col-xl-8">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="footer-link wow fadeInUp">
+                                        <h3 class="footer-title">Our Pages</h3>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="blog-list.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="our-team.html">Team</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="footer-link wow fadeInUp">
+                                        <h3 class="footer-title">Extra Links</h3>
+                                        <ul>
+                                            <li><a href="roadmap.html">Roadmap</a></li>
+                                            <li><a href="feature.html">Features</a></li>
+                                            <li><a href="#">Join Us</a></li>
+                                            <li><a href="token-sale.html">Token Sale</a></li>
+                                            <li><a href="faq.html">Faqs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <div class="footer-link wow fadeInUp">
+                                        <h3 class="footer-title">Information</h3>
+                                        <ul>
+                                            <li><a href="tel:+91123456789">+91 123 456 7890</a></li>
+                                            <li><a href="mailto:Info@example.com">Info@example.com</a></li>
+                                            <li>200 East 65th Street 17No, Australia</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8 col-xl-8">
+                            <div class="copyright-text">
+                                <p>© Cryptcon all Rights Reserved. Designed By <a href="#">TemplatesCoder.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <div class="copyright-link text-right">
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-pattern">
+                <img src="images/footer-pattern.png" alt="footer-pattern" class="pattern-1 line-pattern top-0 wow">
+            </div>
+        </footer>
+        <!-- End of Footer -->
+
+    </div>
+    <!-- End Of Main Div -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
